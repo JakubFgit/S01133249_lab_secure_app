@@ -36,4 +36,4 @@ jobs:
           BRANCH=${{ steps.vars.outputs.branch }} -e MIXEWAY_PROJECT_NAME=${{
           github.event.repository.name }} -e MIXEWAY_PROJECT_ID=${{ secrets.mixeway_project_id
           }} -e MIXEWAY_KEY=${{ secrets.mixeway_key }} -v $PWD:/opt/sources
-mixeway/scanner:latest
+          mixeway/scanner:latest
